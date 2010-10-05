@@ -1,0 +1,9 @@
+GVIM
+gi - goto insert mode where last left insert mode
+gv - reselect last visual selection
+* - find whole word under cursor
+# - find whole word under cursor (backwards)
+g* - find word under cursor
+g# - find word under cursor (backwards)
+gf - open file name under cursor
+

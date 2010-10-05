@@ -1,0 +1,24 @@
+Microsoft Visual Studio
+
+Ctrl+Shift+B - Build Solution
+Ctrl+Alt+E - Exceptions Window
+Ctrl+I - Incremental Search
+Ctrl+K, C - Comment Selection
+Ctrl+K, U - Uncomment Selection
+Ctrl+Shift+V - Cycle Clipboard Ring
+Ctrl+. - Show Smart Tag
+F5 - Start Debugging
+Ctrl+F5 - Start Without Debugging
+Shift+F5 - Stop Debugging
+F9 - Toggle Breakpoint
+Ctrl+F9 - Enable/Disable Breakpoint
+Ctrl+Shift+F9 - Delete All Breakpoints
+F10 - Step Over (Debugging)
+Ctrl+F10 - Run To Cursor (Debugging)
+Ctrl+Shift+F10 - Set Next Statement (Debugging)
+Shift+Alt+F10 - Show Smart Tag
+F11 - Step Into (Debugging)
+Shift+F11 - Step Out (Debugging)
+F12 - Go To Definition
+Alt+Num* - Show Next Statement (Debugging)
+
