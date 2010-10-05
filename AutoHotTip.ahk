@@ -7,7 +7,7 @@ IconPath := A_ScriptDir . "\light-bulb-64.png"
 
 TipFileCount := 0
 
-Loop %A_ScriptDir%\*.txt
+Loop %A_ScriptDir%\*.tips
 {
     TipFileCount += 1
     TipCount := 0
