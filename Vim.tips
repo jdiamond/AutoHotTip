@@ -6,4 +6,25 @@ gv - reselect last visual selection
 g* - find word under cursor
 g# - find word under cursor (backwards)
 gf - open file name under cursor
-
+0 - goto first character on the line
+^ - goto first non-blank character on the line
+$ - goto last character on the line
+g_ - goto last non-blank character on the line
+gg - goto first line in file
+G - goto last line in file
+#G - goto line #
+/text - find text
+?text - find text (backwards)
+n - find text again
+N - find text again (backwards)
+% - goto matching bracket
+C-f - page forward
+C-b - page backward
+C-d - half page down
+C-u - half page up
+H - goto highest line on screen
+M - goto middle line on screen
+L - goto lowest line on screen
+zt - redraw screen with current line on top
+zz - redraw screen with current line in middle
+zb - redraw screen with current line on bottom
