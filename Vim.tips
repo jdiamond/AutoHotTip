@@ -1,30 +1,52 @@
 GVIM
-gi - goto insert mode where last left insert mode
-gv - reselect last visual selection
-* - find whole word under cursor
-# - find whole word under cursor (backwards)
-g* - find word under cursor
-g# - find word under cursor (backwards)
-gf - open file name under cursor
-0 - goto first character on the line
-^ - goto first non-blank character on the line
-$ - goto last character on the line
-g_ - goto last non-blank character on the line
-gg - goto first line in file
-G - goto last line in file
-#G - goto line #
-/text - find text
-?text - find text (backwards)
-n - find text again
-N - find text again (backwards)
-% - goto matching bracket
-C-f - page forward
-C-b - page backward
-C-d - half page down
-C-u - half page up
-H - goto highest line on screen
-M - goto middle line on screen
-L - goto lowest line on screen
-zt - redraw screen with current line on top
-zz - redraw screen with current line in middle
-zb - redraw screen with current line on bottom
+gi :: goto insert mode where last left insert mode
+gv :: reselect last visual selection
+* :: find whole word under cursor
+# :: find whole word under cursor (backwards)
+g* :: find word under cursor
+g# :: find word under cursor (backwards)
+gf :: open file name under cursor
+0 :: goto first character on the line
+^ :: goto first non-blank character on the line
+$ :: goto last character on the line
+g_ :: goto last non-blank character on the line
+gg :: goto first line in file
+G :: goto last line in file
+{count}G :: goto line {count}
+/text :: find text
+?text :: find text (backwards)
+n :: find text again
+N :: find text again (backwards)
+% :: goto matching bracket
+C-f :: page forward
+C-b :: page backward
+C-d :: half page down
+C-u :: half page up
+H :: goto highest line on screen
+M :: goto middle line on screen
+L :: goto lowest line on screen
+zt :: redraw screen with current line on top
+zz :: redraw screen with current line in middle
+zb :: redraw screen with current line on bottom
+C-w s :: split window horizontally (:sp[lit])
+C-w v :: split window vertically (:vs[plit])
+C-w n :: split window horizontally with empty file (:new)
+C-w q :: quit window (:q[uit])
+C-w = :: make all windows (almost) equally high and wide
+C-w + :: increase window height (:res[ize] +N)
+C-w - :: decrease window height (:res[ize] -N)
+C-w _ :: maximize window height (:res[ize])
+C-w > :: increase window width (:vert[ical] res[ize] +N)
+C-w < :: decrease window width (:vert[ical] res[ize] -N)
+C-w | :: maximize window width (:vert[ical] res[ize])
+z{N}<CR> :: set window height to N (:res[ize] N)
+C-w h :: move cursor to window left of current window
+C-w j :: move cursor to window beneath current window
+C-w k :: move cursor to window above current window
+C-w l :: move cursor to window right of current window
+C-w w :: cycle cursor from top, left window to bottom, right
+C-w W :: cycle cursor from bottom, right window to top, left
+C-w t :: move cursor to top, left window
+C-w b :: move cursor to bottom, right window
+C-w p :: move cursor to previous (last accessed) window
+C-w T :: move current window to new tab page

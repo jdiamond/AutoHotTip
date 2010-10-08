@@ -48,7 +48,7 @@ Loop
             Random N, 1, TipFile%A_Index%TipCount
             Tip := TipFile%A_Index%Tip%N%
 
-            RegExMatch(Tip, "^\s*(.+)\s+-\s+(.+)$", Match)
+            RegExMatch(Tip, "^\s*(.+)\s+::\s+(.+)$", Match)
 
             If (Match != "")
             {
