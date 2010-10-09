@@ -16,3 +16,7 @@ displayed. If a tip has a - character in it, the part of the line before the -
 becomes the title of the tip and the part of the line after the - becomes the
 description of the tip. The - character must be surrounded by at least on space
 on both sides or it isn't considered a separator.
+
+The default icon used by AutoHotTip was found here:
+
+http://www.geekpedia.com/icon744_Light-Bulb.html

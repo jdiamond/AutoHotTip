@@ -3,7 +3,9 @@
 SecondsBetweenTips := 300
 DefaultTitle := "Tip"
 NotifyCommand := """" . A_ScriptDir . "\growlnotify.exe"" /a:AutoHotTip /r:Tip /n:Tip ""/i:{Icon}"" ""/t:{Title}"" ""{Tip}"""
-IconPath := A_ScriptDir . "\light-bulb-64.png"
+IconPath := A_ScriptDir . "\ktip_1453_32.png"
+
+Menu Tray, Icon, %A_ScriptDir%\ktip_1453_32.ico, , 1
 
 TipFileCount := 0
 
